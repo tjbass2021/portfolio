@@ -2,6 +2,9 @@
     display: none !important;
 }
 
+
+/* CORES DE BACKGROUND*/
+
 .bg-roxo{
     background-color: #343779;
 }
@@ -22,9 +25,35 @@
     background-color: #33a9ac;
 }
 
+.bg-azul-hard-dark{
+    background-color: #181c2a;
+}
+
+.bg-azul-dark{
+    background-color: #112731;
+}
+
+.bg-azul-dark-soft{
+    background-color: #06334b;
+}
+
+.bg-azul-grey{
+    background-color: #7a8ea1;
+}
+
+.bg-azul-grey-grey{
+    background-color: #74839b;
+}
+
+.bg-azul-light{
+    background-color:  #a9b6c3;
+}
+
 .bg-gradiente{
     background: linear-gradient(to bottom, #343779 0%, #33a9ac 100%)
 }
+
+/*----------------------------------------------*/
 
 .box-shadow-meu{
     /* box-shadow: 0px 1px 5px 5px #020202; */
