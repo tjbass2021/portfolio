@@ -1,0 +1,38 @@
+.botao{
+    display: none !important;
+}
+
+.bg-roxo{
+    background-color: #343779;
+}
+
+.bg-rosa-pink{
+    background-color: #982062;
+}
+
+.bg-laranja{
+    background-color: #f86041;
+}
+
+.bg-amarelo{
+    background-color: #ffa046;
+}
+
+.bg-azulCyano{
+    background-color: #33a9ac;
+}
+
+.bg-gradiente{
+    background: linear-gradient(to bottom, #343779 0%, #33a9ac 100%)
+}
+
+.box-shadow-meu{
+    /* box-shadow: 0px 1px 5px 5px #020202; */
+    box-shadow: 0px 1px 5px 5px rgba(2, 2, 2, 0.48);
+}
+
+@media screen and (max-width: 742px) {
+    .botao{
+        display: block !important;
+    }
+}
