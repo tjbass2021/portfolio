@@ -60,6 +60,21 @@
     box-shadow: 0px 1px 5px 5px rgba(2, 2, 2, 0.48);
 }
 
+/*TEXT-SHADOW*/
+
+.smooth{
+    color: rgb(68, 68, 68);
+/* background: rgb(255, 255, 255); */
+text-shadow: rgb(204, 204, 204) 1px 0px 1px, rgb(238, 238, 238) 0px 1px 1px, rgb(204, 204, 204) 2px 1px 1px, rgb(238, 238, 238) 1px 2px 1px, rgb(204, 204, 204) 3px 2px 1px, rgb(238, 238, 238) 2px 3px 1px, rgb(204, 204, 204) 4px 3px 1px, rgb(238, 238, 238) 3px 4px 1px, rgb(204, 204, 204) 5px 4px 1px, rgb(238, 238, 238) 4px 5px 1px, rgb(204, 204, 204) 6px 5px 1px, rgb(238, 238, 238) 5px 6px 1px, rgb(204, 204, 204) 7px 6px 1px;
+--darkreader-inline-color:#bdb7af;
+--darkreader-inline-bgimage: initial;
+--darkreader-inline-bgcolor:#181a1b;
+}
+
+.retro{
+    text-shadow: 4px 5px 1px #181C2A;
+}
+
 @media screen and (max-width: 742px) {
     .botao{
         display: block !important;
