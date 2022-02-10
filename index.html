@@ -10,41 +10,47 @@
 </head>
 <body class="bg-azul-hard-dark">
 
-    <header class="d-flex flex-row flex-wrap justify-content-around bg-azul-hard-dark">
+    <header  class="d-flex flex-row flex-wrap justify-content-around bg-azul-hard-dark w-100">
         <nav class="navbar navbar-dark bg-azul-hard-dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
+              <a class="portfolio1 navbar-brand" href="#topo">
+                <img src="icons/logo2.png" alt="" width="30" height="30" class="d-inline-block align-text-center border border-info rounded">
+                Portfolio
+              </a>
+              <a class="portfolio2 navbar-brand" href="#topo2">
                 <img src="icons/logo2.png" alt="" width="30" height="30" class="d-inline-block align-text-center border border-info rounded">
                 Portfolio
               </a>
             </div>
           </nav>
 
-          <nav class="navbar navbar-expand-lg navbar-dark bg-black bg-opacity-25">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-azul-hard-dark bg-opacity-25">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Menu</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <!-- <a class="navbar-brand menu" href="#">Menu</a> -->
+              <button class="navbar-toggler bg-azul-hard-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Features</a>
-                  <a class="nav-link" href="#">Pricing</a>
-                  <a class="nav-link">Disabled</a>
+              <div class="collapse navbar-collapse menu-expansivo" id="navbarNavAltMarkup">
+                <div class="navbar-nav bg-azul-hard-dark menu-expansivo2">
+                  <a class="nav-link active" aria-current="page" href="#index.html">Home</a>
+                  <a class="nav-link" href="#sobre">Sobre mim</a>
+                  <a class="nav-link" href="#habilidades">Habilidades</a>
+                  <a class="nav-link" href="#projetos">Projetos</a>
+                  <a class="nav-link" href="#contato">Contato</a>
                 </div>
               </div>
             </div>
           </nav>
     </header>
 
-    <img src="img/desenhando.svg" class="img-fluid w-100" alt="...">
+    <img id="topo" src="img/desenhando.svg" class="imagem-topo img-fluid w-100" alt="...">
+    <img id="topo2" src="img/minha-apresentacao.png" class="imagem-topo2 img-fluid w-100 d-none" alt="...">
 
     <div class="container bg-azul-hard-dark d-flex flex-column align-items-center mt-2 w-100">
 
-          <h3 class="w-50 text-light text-center m-5 display-4">SOBRE</h3>
+          <h3 id="sobre" class="w-50 text-light text-center m-5 display-4">SOBRE</h3>
 
-          <div class="card box-shadow-meu mb-3 bg-black bg-opacity-75 text-light" style="max-width: 1200px;">
+          <div class="card box-shadow-meu mb-3 bg-black bg-opacity-25 text-light" style="max-width: 1200px;">
             <div class="row g-0">
               <div class="col-md-4">
                 <img src="img/eu2.JPG" class="img-fluid rounded-start" alt="..." style="width: 100%;">
@@ -59,11 +65,11 @@
             </div>
           </div>
 
-          <h3 class="text-light text-center m-5 display-4">HARD SKILLS & SOFT SKILLS</h3>
+          <h3 id="habilidades" class="text-light text-center m-5 display-4">HARD SKILLS & SOFT SKILLS</h3>
 
           <div class="d-flex flex-row flex-wrap justify-content-evenly w-100">
 
-            <div class="card box-shadow-meu text-white bg-azul-dark bg-opacity-75 mb-3" style="max-width: 18rem;">
+            <div class="card box-shadow-meu text-white bg-black bg-opacity-25 mb-3" style="max-width: 18rem;">
                 <div class="card-header">Header</div>
                 <div class="card-body">
                   <h5 class="card-title">Dark card title</h5>
@@ -71,7 +77,7 @@
                 </div>
               </div>
 
-              <div class="card box-shadow-meu text-white bg-azul-dark bg-opacity-75 mb-3" style="max-width: 18rem;">
+              <div class="card box-shadow-meu text-white bg-black bg-opacity-25 mb-3" style="max-width: 18rem;">
                 <div class="card-header">Header</div>
                 <div class="card-body">
                   <h5 class="card-title">Dark card title</h5>
@@ -80,9 +86,7 @@
               </div>
           </div>
 
-
-
-          <h3 class="text-light text-center m-5 display-4">PROJETOS</h3>
+          <h3 id="projetos" class="text-light text-center m-5 display-4">PROJETOS</h3>
 
           <div class="d-flex flex-column">
 
@@ -128,9 +132,52 @@
 
           </div>
 
-          <h3 class="text-light text-center m-5 display-4">CONTATO</h3>
+          <h3 id="contato" class="text-light text-center m-5 display-4">CONTATO</h3>
+
+          <div class="contato d-flex flex-column justify-content-center align-items-center w-100 bg-black bg-opacity-25 mb-5 box-shadow-meu">
+            <div class="contatos d-flex flex-column justify-content-center w-25 ms-5 p-3">
+              <a href="https://github.com/tjbass2021" target="_blank">
+                <div class="github d-flex justify-content-start align-items-center">
+                  <img class="github-icon" src="icons/github.svg" alt="Github">
+                  <h5>tjbass2021</h5>
+                </div>
+              </a>
+  
+              <a href="https://www.linkedin.com/in/thiago-jonas-nascimento-de-souza-006874119/" target="_blank">
+                <div class="linkedin d-flex justify-content-start align-items-center">
+                  <img class="linkedin-icon" src="icons/linkedin.svg" alt="LinkedIn">
+                  <h5>LinkedIn</h5>
+                </div>
+              </a>
+  
+              <a href="mailto: tjbass2013@gmail.com" target="_blank">
+                <div class="gmail d-flex justify-content-start align-items-center">
+                  <img class="gmail-icon" src="icons/gmail.svg" alt="Email">
+                  <h5>tjbass2013@gmail.com</h5>
+                </div>
+              </a>
+              
+              <a href="tel:+5591701186" target="_blank">
+                <div class="whatsapp d-flex justify-content-start align-items-center">
+                  <img class="whats-icon" src="icons/whatsapp.svg" alt="WhatsApp">
+                  <h5>WhatsApp: +55 84 99170-1186</h5>
+                </div>
+              </a>
+              
+              <a href="https://www.instagram.com/thiago_okan/" target="_blank">
+                <div class="instagram d-flex justify-content-start align-items-center">
+                  <img class="insta-icon" src="icons/Instagram.svg" alt="Instagram">
+                  <h5>@thiago_okan</h5>
+                </div>
+              </a>
+            </div>
+          </div>
 
     </div>
+
+    <footer class="w-100 bg-black text-light h-50">
+      <h6 class="text-center p-5">Desenvolvido por: Thiago Jonas</h6>
+    </footer>
     
 
     <script src="js/bootstrap.min.js"></script>
