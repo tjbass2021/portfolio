@@ -26,8 +26,12 @@ header{
     color:#a9b6c3;
 }
 
+.github, .linkedin, .gmail, .whatsapp, .instagram{
+    margin-right: 80%;
+}
+
 .github-icon, .insta-icon, .gmail-icon, .linkedin-icon, .whats-icon{
-    width: 15%;
+    width: 45px;
     margin-right: 10px;
     margin-bottom: 10px;
 
