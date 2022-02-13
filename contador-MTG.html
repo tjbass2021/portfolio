@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador MTG</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head >
+<body class="bg-azul-hard-dark text-light">
+
+    <header  class="d-flex flex-row flex-wrap justify-content-around bg-azul-hard-dark w-100">
+        <nav class="navbar navbar-dark bg-azul-hard-dark">
+            <div class="container-fluid">
+              <a class="portfolio1 navbar-brand" href="#topo">
+                <img src="icons/logo2.png" alt="" width="30" height="30" class="d-inline-block align-text-center border border-info rounded">
+                Portfolio
+              </a>
+              <a class="portfolio2 navbar-brand" href="#topo2">
+                <img src="icons/logo2.png" alt="" width="30" height="30" class="d-inline-block align-text-center border border-info rounded">
+                Portfolio
+              </a>
+            </div>
+          </nav>
+
+          <nav class="navbar navbar-expand-lg navbar-dark bg-azul-hard-dark bg-opacity-25">
+            <div class="container-fluid">
+              <!-- <a class="navbar-brand menu" href="#">Menu</a> -->
+              <button class="navbar-toggler bg-azul-hard-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse menu-expansivo" id="navbarNavAltMarkup">
+                <div class="navbar-nav bg-azul-hard-dark menu-expansivo2">
+                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="index.html#sobre">Sobre mim</a>
+                  <a class="nav-link" href="index.html#habilidades">Habilidades</a>
+                  <a class="nav-link active" aria-current="page" href="index.html#projetos">Projetos</a>
+                  <a class="nav-link" href="index.html#contato">Contato</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <div class="container bg-black bg-opacity-50 d-flex flex-column align-items-center w-100 h-100 p-3 mb-5" style="margin-top: 5%">
+        <h1 class="display 1">Contador de MTG</h1>
+        <img class="w-75 mt-3" src="img/kaya-desktop.png" alt="Contador de Magic versão desktop">
+        <figcaption>(Contador de MTG com o tema "Kaya")</figcaption>
+
+        <h3 class="display-6 mt-5">O Projeto</h3>
+
+        <p>
+            Trata-se de um projeto simples de um contador de pontos de MTG com poucas funcionalidades e apenas duas modalidades de jogo: Formato Padrão e Commander.
+
+Inteiramente escrito com o uso do framework Bootstrap e a biblioteca JQuery, que, como de conhecimento comum dos devs, trabalham em conjunto.
+
+Todas as funções para a manipulação do DOM foram chamadas em uma tag script.
+
+Além do uso dos estilos de Bootstrap, também foi criado um estilo próprio para personalização do projeto.
+
+Graças a magia do FlexBox, o projeto é responsivo para uma grande variedade de telas, se adaptando muito bem a dispositivos mobile.
+
+
+        </p>
+
+        <h3 class="display-6 mt-3">Selecionando modo do jogo e alterando o tema</h3>
+
+        <img class="w-100 mt-3" src="img/kaya-modo-de-jogo.png" alt="Menu de opção de jogo">
+
+        <p class="text-left w-100 mt-3">Com um menu simples, é bastante fácil selecionar o modo de jogo entre "Padrão" e "Commander".</p>
+        <p class="text-left w-100">O mesmo para a alteração dos temas.</p>
+
+        <img class="w-100 mt-3" src="img/kaya-muda-tema.png" alt="Menu de opção de tema">
+
+        <h3 class="display-6 mt-3">Responsividade</h3>
+
+        <p class="text-left w-100 mt-3">O projeto está bastante responsivo, tendo um layout até mesmo mais atrativo que na versão
+            para desktop. Isso se deve muito muito em razão da maneira como o framework Bootstrap é planejado: "mobile first", o que se encaixou
+            perfeitamente com este projeto, já que o foco do desenvolvimento deste tipo de contador são os dispositivos móveis.
+        </p>
+
+        <div class="d-flex flex-row flex-wrap w-100 justify-content-center">
+            <img class="w-25 m-1" src="img/kaya-responsive.png" alt="Menu de opção de tema">
+            <img class="w-25 m-1" src="img/nissa-responsive-update.png" alt="Menu de opção de tema">
+        </div>
+
+        <footer class="w-100 p-3 mt-3 text-center">
+            <a class="text-decoration-none bg-primary text-light p-3 rounded-pill" href="https://github.com/tjbass2021/MTG-counter" target="_blank">Veja o projeto no GitHub</a>
+
+        </footer>
+
+
+    </div>
+
+    <footer class="w-100 h-100 bg-black text-light h-auto">
+        <h6 class="text-center p-5 m-0">Desenvolvido por: Thiago Jonas</h6>
+      </footer>
+
+      <script src="js/jquery-3.6.0.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
