@@ -46,27 +46,35 @@
 
     <div id="topo"></div>
     <div class="container bg-black bg-opacity-50 d-flex flex-column align-items-center w-100 h-100 p-3 mb-5" style="margin-top: 100px">
-        <h1 class="text-light display-1 mt-3 mb-5">Projetos</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Projetos</li>
+        </ol>
+      </nav>
+        <h1 class="text-light display-1 mt-3 mb-5 border-bottom pb-3">Projetos</h1>
 
-        <div class="card mb-3 bg-black bg-opacity-50 text-light">
-            <img src="img/card-de-apresentacao.png" class="card-img-top" alt="...">
+        <div class="card mb-5 bg-black bg-opacity-50 text-light">
+          <img src="img/kaya-desktop.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Contador de MTG (single player)</h5>
+            <p class="card-text">Contador de MTG para um único jogador com dois modos de jogo (padrão e commander).</p>
+            <a href="contador-MTG.html" class="btn btn-primary">Ver projeto</a>
+            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+
+        <div class="card mb-5 bg-black bg-opacity-50 text-light">
+            <img src="img/card-apresentacao-desktop.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card de Apresentação</h5>
               <p class="card-text">Single page de um card organizador de links.</p>
-              <a href="#" class="btn btn-primary">Ver projeto</a>
+              <a href="card-apresentacao.html" class="btn btn-primary">Ver projeto</a>
               <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
             </div>
           </div>
 
-          <div class="card mb-3 bg-black bg-opacity-50 text-light">
-            <img src="img/kaya-desktop.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Contador de MTG (single player)</h5>
-              <p class="card-text">Contador de MTG para um único jogador com dois modos de jogo (padrão e commander).</p>
-              <a href="contador-MTG.html" class="btn btn-primary">Ver projeto</a>
-              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-            </div>
-          </div>
+
     </div>
 
     <footer class="w-100 h-100 bg-black text-light h-auto">
