@@ -12,9 +12,9 @@ header{
     margin-top: 20px;
 }
 
-.botao{
+/* .botao{
     display: none !important;
-}
+} */
 
 .contatos a{
     text-decoration: none;
@@ -116,9 +116,9 @@ text-shadow: rgb(204, 204, 204) 1px 0px 1px, rgb(238, 238, 238) 0px 1px 1px, rgb
 
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 742px) {
+@media screen and (min-width: 742px) {
     .botao{
-        display: block !important;
+        width: 50%;
     }
 }
 
@@ -191,6 +191,12 @@ text-shadow: rgb(204, 204, 204) 1px 0px 1px, rgb(238, 238, 238) 0px 1px 1px, rgb
     .imagem-topo2{
         margin-top: 60px;
         display: block !important;
+    }
+}
+
+@media screen and (max-width: 488px){
+    .link-projeto{
+        width: 100% !important;
     }
 }
 
